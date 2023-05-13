@@ -1,6 +1,6 @@
 import random
 
-POSSIBLE_DICES = (
+POSSIBLE_DICE = (
     "D100",
     "D20",
     "D12",
@@ -12,7 +12,7 @@ POSSIBLE_DICES = (
 )
 
 def roll_the_dice(dice_code):
-    for dice in POSSIBLE_DICES:
+    for dice in POSSIBLE_DICE:
         if dice in dice_code:
             try:
                 multiply, modifier = dice_code.split(dice)
