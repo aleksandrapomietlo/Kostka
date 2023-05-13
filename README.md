@@ -1,0 +1,1 @@
+Funkcja bierze pod uwagę rodzaj kostki,liczbę rzutów oraz modyfikatory
